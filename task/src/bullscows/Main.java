@@ -6,25 +6,13 @@ import  java.util.Random;
 
 
 public class Main {
-
     static StringBuilder secretCode = new StringBuilder("");
-    static String secretCodeString = secretCode.toString();
-    static int mainBulls = 0;
-     static int turns = 1;
+    static int totalBulls = 0;
+    static int turns = 1;
     static Scanner input = new Scanner(System.in);
 
-    public static boolean isInteger( String input ) {
-        try {
-            Integer.parseInt( input );
-            return true;
-        }
-        catch( Exception e ) {
-            return false;
-        }
-    }
 
-
-    public static void grader (){
+    public static void gradeGuess (){
         System.out.println("Turn " + turns + ":");
 
         String number = input.nextLine();
@@ -32,16 +20,14 @@ public class Main {
         int bulls = 0;
         int cows = 0;
 
-
-
             for (int i = 0; i < number.length() ; i++){
                 if( number.charAt(i) == secretCode.charAt(i))  bulls++;
-                else if( secretCodeString.contains(String.valueOf(number.charAt(i))))   cows++;
+                else if(secretCode.indexOf(String.valueOf(number.charAt(i)))!= -1)   cows++;
             }
 
         String bullString = bulls == 1 ? "bull" : "bulls";
         String cowString = cows == 1 ? "cow" : "cows";
-        mainBulls = bulls;
+        totalBulls = bulls;
 
             if (bulls > 0 && cows> 0){
                 System.out.println("Grade: " + bulls +  " " + bullString + " and " + cows + " " + cowString);
@@ -69,14 +55,15 @@ public class Main {
 
     }
 
-    public static void  gameLogic(){
-        while (mainBulls < secretCode.toString().length()){
-          grader();
+    public static void playGame(){
+        while (totalBulls < secretCode.toString().length()){
+          gradeGuess();
         }
-        mainBulls = 0;
+        totalBulls = 0;
         turns =  1;
         secretCode = new StringBuilder("");
     }
+    //first-generation code generator
     public static void generateCode(){
         Scanner input = new Scanner(System.in);
         int length = input.nextInt();
@@ -113,7 +100,7 @@ public class Main {
         }
 
     }
-
+    //second-generation code generator
     public static void generateRandomCode(){
         Scanner input = new Scanner(System.in);
         int length = input.nextInt();
@@ -124,18 +111,12 @@ public class Main {
 
             List<Integer> digits = new ArrayList<>();
             while (digits.size() == 0){
-                if (randomDigit!= 0 ){
-                    digits.add(randomDigit);
-                }
-                else {
-                        randomDigit = random.nextInt(10);
-                }
+                if (randomDigit!= 0 ) digits.add(randomDigit);
+                else randomDigit = random.nextInt(10);
             }
             while (digits.size() < length) {
-                if (!digits.contains(randomDigit)) {
-                    digits.add(randomDigit);
-                }
-               randomDigit = random.nextInt(10);
+                if (!digits.contains(randomDigit)) digits.add(randomDigit);
+                randomDigit = random.nextInt(10);
             }
             StringBuilder finalNumber = new StringBuilder();
 
@@ -150,7 +131,8 @@ public class Main {
         }
 
     }
-    public static void generateSpecialCode(){
+    //third-generation code generator
+    public static void generateUniqueCode(){
         System.out.println("Input the length of the secret code:");
         int length = 0;
         int specialCharactersLength = 0;
@@ -166,7 +148,7 @@ public class Main {
 
 
         try{
-            specialCharactersLength = input.nextInt();ƒ
+            specialCharactersLength = input.nextInt();
         }catch(Exception e){
             System.out.println("Error.");
         }
@@ -184,7 +166,7 @@ public class Main {
             System.out.println("Error: maximum number of possible symbols in the code is 36 (0-9, a-z).");
         }
         else if (length < 1 || specialCharactersLength < 1){
-            System.out.println("Error: prvided value must be a positive number");
+            System.out.println("Error: provided value must be a positive number");
         }
         else if  ( length <= 36 && specialCharactersLength <= 36) {
             Random random = new Random();
@@ -221,11 +203,8 @@ public class Main {
 
     }
     public static void main(String[] args) {
-        generateSpecialCode();
-        gameLogic();
-
-
-
+        generateUniqueCode();
+        playGame();
 
     }
 }
