@@ -1,0 +1,3477 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="BullsCowsTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-09-27T16:14:45" hostname="Petras-MacBook-Air-2.local" time="2.83">
+  <properties/>
+  <testcase name="start" classname="BullsCowsTest" time="2.83"/>
+  <system-out><![CDATA[?[1;31m
+Start test 1?[0m
+Input the length of the secret code:
+> 1
+Input the number of possible symbols in the code:
+> 10
+The secret is prepared: * (0-9).
+Okay, let's start a game!
+Turn 1:
+Grade: none
+Turn 2:
+> 0
+Grade: none
+Turn 3:
+> 1
+Grade: none
+Turn 4:
+> 2
+Grade: none
+Turn 5:
+> 3
+Grade: none
+Turn 6:
+> 4
+Grade: none
+Turn 7:
+> 5
+Grade: none
+Turn 8:
+> 6
+Grade: none
+Turn 9:
+> 7
+Grade: none
+Turn 10:
+> 8
+Grade: 1 bull
+?[1;31m
+Start test 2?[0m
+Input the length of the secret code:
+> 4
+Input the number of possible symbols in the code:
+> 10
+The secret is prepared: **** (0-9).
+Okay, let's start a game!
+Turn 1:
+Grade: none
+Turn 2:
+> 0000
+Grade: none
+Turn 3:
+> 1111
+Grade: 1 bull
+Turn 4:
+> 2222
+Grade: none
+Turn 5:
+> 3333
+Grade: none
+Turn 6:
+> 4444
+Grade: none
+Turn 7:
+> 5555
+Grade: 1 bull
+Turn 8:
+> 6666
+Grade: none
+Turn 9:
+> 7777
+Grade: 1 bull
+Turn 10:
+> 8888
+Grade: 1 bull
+Turn 11:
+> 1578
+Grade: 2 bulls
+Turn 12:
+> 5178
+Grade: 1 bull
+Turn 13:
+> 7158
+Grade: 2 bulls
+Turn 14:
+> 1758
+Grade: 4 bulls
+?[1;31m
+Start test 3?[0m
+Input the length of the secret code:
+> 6
+Input the number of possible symbols in the code:
+> 10
+The secret is prepared: ****** (0-9).
+Okay, let's start a game!
+Turn 1:
+Grade: none
+Turn 2:
+> 000000
+Grade: none
+Turn 3:
+> 111111
+Grade: 1 bull
+Turn 4:
+> 222222
+Grade: 1 bull
+Turn 5:
+> 333333
+Grade: 1 bull
+Turn 6:
+> 444444
+Grade: 1 bull
+Turn 7:
+> 555555
+Grade: 1 bull
+Turn 8:
+> 666666
+Grade: 1 bull
+Turn 9:
+> 123456
+Grade: none
+Turn 10:
+> 213456
+Grade: 1 bull
+Turn 11:
+> 312456
+Grade: 3 bulls
+Turn 12:
+> 132456
+Grade: 1 bull
+Turn 13:
+> 231456
+Grade: none
+Turn 14:
+> 321456
+Grade: 1 bull
+Turn 15:
+> 421356
+Grade: none
+Turn 16:
+> 241356
+Grade: none
+Turn 17:
+> 142356
+Grade: 1 bull
+Turn 18:
+> 412356
+Grade: 2 bulls
+Turn 19:
+> 214356
+Grade: 1 bull
+Turn 20:
+> 124356
+Grade: none
+Turn 21:
+> 134256
+Grade: none
+Turn 22:
+> 314256
+Grade: 2 bulls
+Turn 23:
+> 413256
+Grade: 1 bull
+Turn 24:
+> 143256
+Grade: none
+Turn 25:
+> 341256
+Grade: 1 bull
+Turn 26:
+> 431256
+Grade: none
+Turn 27:
+> 432156
+Grade: 1 bull
+Turn 28:
+> 342156
+Grade: 2 bulls
+Turn 29:
+> 243156
+Grade: none
+Turn 30:
+> 423156
+Grade: none
+Turn 31:
+> 324156
+Grade: 1 bull
+Turn 32:
+> 234156
+Grade: none
+Turn 33:
+> 534126
+Grade: none
+Turn 34:
+> 354126
+Grade: 1 bull
+Turn 35:
+> 453126
+Grade: none
+Turn 36:
+> 543126
+Grade: none
+Turn 37:
+> 345126
+Grade: 1 bull
+Turn 38:
+> 435126
+Grade: none
+Turn 39:
+> 135426
+Grade: none
+Turn 40:
+> 315426
+Grade: 2 bulls
+Turn 41:
+> 513426
+Grade: 1 bull
+Turn 42:
+> 153426
+Grade: none
+Turn 43:
+> 351426
+Grade: 1 bull
+Turn 44:
+> 531426
+Grade: none
+Turn 45:
+> 541326
+Grade: none
+Turn 46:
+> 451326
+Grade: none
+Turn 47:
+> 154326
+Grade: none
+Turn 48:
+> 514326
+Grade: 1 bull
+Turn 49:
+> 415326
+Grade: 1 bull
+Turn 50:
+> 145326
+Grade: none
+Turn 51:
+> 143526
+Grade: 1 bull
+Turn 52:
+> 413526
+Grade: 2 bulls
+Turn 53:
+> 314526
+Grade: 3 bulls
+Turn 54:
+> 134526
+Grade: 1 bull
+Turn 55:
+> 431526
+Grade: 1 bull
+Turn 56:
+> 341526
+Grade: 2 bulls
+Turn 57:
+> 241536
+Grade: 1 bull
+Turn 58:
+> 421536
+Grade: 1 bull
+Turn 59:
+> 124536
+Grade: 1 bull
+Turn 60:
+> 214536
+Grade: 2 bulls
+Turn 61:
+> 412536
+Grade: 3 bulls
+Turn 62:
+> 142536
+Grade: 2 bulls
+Turn 63:
+> 542136
+Grade: 1 bull
+Turn 64:
+> 452136
+Grade: 1 bull
+Turn 65:
+> 254136
+Grade: none
+Turn 66:
+> 524136
+Grade: none
+Turn 67:
+> 425136
+Grade: none
+Turn 68:
+> 245136
+Grade: none
+Turn 69:
+> 215436
+Grade: 1 bull
+Turn 70:
+> 125436
+Grade: none
+Turn 71:
+> 521436
+Grade: none
+Turn 72:
+> 251436
+Grade: none
+Turn 73:
+> 152436
+Grade: 1 bull
+Turn 74:
+> 512436
+Grade: 2 bulls
+Turn 75:
+> 514236
+Grade: 1 bull
+Turn 76:
+> 154236
+Grade: none
+Turn 77:
+> 451236
+Grade: none
+Turn 78:
+> 541236
+Grade: none
+Turn 79:
+> 145236
+Grade: none
+Turn 80:
+> 415236
+Grade: 1 bull
+Turn 81:
+> 315246
+Grade: 2 bulls
+Turn 82:
+> 135246
+Grade: none
+Turn 83:
+> 531246
+Grade: none
+Turn 84:
+> 351246
+Grade: 1 bull
+Turn 85:
+> 153246
+Grade: none
+Turn 86:
+> 513246
+Grade: 1 bull
+Turn 87:
+> 213546
+Grade: 2 bulls
+Turn 88:
+> 123546
+Grade: 1 bull
+Turn 89:
+> 321546
+Grade: 2 bulls
+Turn 90:
+> 231546
+Grade: 1 bull
+Turn 91:
+> 132546
+Grade: 2 bulls
+Turn 92:
+> 312546
+Grade: 4 bulls
+Turn 93:
+> 352146
+Grade: 2 bulls
+Turn 94:
+> 532146
+Grade: 1 bull
+Turn 95:
+> 235146
+Grade: none
+Turn 96:
+> 325146
+Grade: 1 bull
+Turn 97:
+> 523146
+Grade: none
+Turn 98:
+> 253146
+Grade: none
+Turn 99:
+> 251346
+Grade: none
+Turn 100:
+> 521346
+Grade: none
+Turn 101:
+> 125346
+Grade: none
+Turn 102:
+> 215346
+Grade: 1 bull
+Turn 103:
+> 512346
+Grade: 2 bulls
+Turn 104:
+> 152346
+Grade: 1 bull
+Turn 105:
+> 452316
+Grade: 1 bull
+Turn 106:
+> 542316
+Grade: 1 bull
+Turn 107:
+> 245316
+Grade: none
+Turn 108:
+> 425316
+Grade: none
+Turn 109:
+> 524316
+Grade: none
+Turn 110:
+> 254316
+Grade: none
+Turn 111:
+> 354216
+Grade: 1 bull
+Turn 112:
+> 534216
+Grade: none
+Turn 113:
+> 435216
+Grade: none
+Turn 114:
+> 345216
+Grade: 1 bull
+Turn 115:
+> 543216
+Grade: none
+Turn 116:
+> 453216
+Grade: none
+Turn 117:
+> 423516
+Grade: 1 bull
+Turn 118:
+> 243516
+Grade: 1 bull
+Turn 119:
+> 342516
+Grade: 3 bulls
+Turn 120:
+> 432516
+Grade: 2 bulls
+Turn 121:
+> 234516
+Grade: 1 bull
+Turn 122:
+> 324516
+Grade: 2 bulls
+Turn 123:
+> 325416
+Grade: 1 bull
+Turn 124:
+> 235416
+Grade: none
+Turn 125:
+> 532416
+Grade: 1 bull
+Turn 126:
+> 352416
+Grade: 2 bulls
+Turn 127:
+> 253416
+Grade: none
+Turn 128:
+> 523416
+Grade: none
+Turn 129:
+> 623415
+Grade: none
+Turn 130:
+> 263415
+Grade: none
+Turn 131:
+> 362415
+Grade: 2 bulls
+Turn 132:
+> 632415
+Grade: 1 bull
+Turn 133:
+> 236415
+Grade: none
+Turn 134:
+> 326415
+Grade: 1 bull
+Turn 135:
+> 426315
+Grade: none
+Turn 136:
+> 246315
+Grade: none
+Turn 137:
+> 642315
+Grade: 1 bull
+Turn 138:
+> 462315
+Grade: 1 bull
+Turn 139:
+> 264315
+Grade: none
+Turn 140:
+> 624315
+Grade: none
+Turn 141:
+> 634215
+Grade: none
+Turn 142:
+> 364215
+Grade: 1 bull
+Turn 143:
+> 463215
+Grade: none
+Turn 144:
+> 643215
+Grade: none
+Turn 145:
+> 346215
+Grade: 1 bull
+Turn 146:
+> 436215
+Grade: none
+Turn 147:
+> 432615
+Grade: 1 bull
+Turn 148:
+> 342615
+Grade: 2 bulls
+Turn 149:
+> 243615
+Grade: none
+Turn 150:
+> 423615
+Grade: none
+Turn 151:
+> 324615
+Grade: 1 bull
+Turn 152:
+> 234615
+Grade: none
+Turn 153:
+> 134625
+Grade: none
+Turn 154:
+> 314625
+Grade: 2 bulls
+Turn 155:
+> 413625
+Grade: 1 bull
+Turn 156:
+> 143625
+Grade: none
+Turn 157:
+> 341625
+Grade: 1 bull
+Turn 158:
+> 431625
+Grade: none
+Turn 159:
+> 631425
+Grade: none
+Turn 160:
+> 361425
+Grade: 1 bull
+Turn 161:
+> 163425
+Grade: none
+Turn 162:
+> 613425
+Grade: 1 bull
+Turn 163:
+> 316425
+Grade: 2 bulls
+Turn 164:
+> 136425
+Grade: none
+Turn 165:
+> 146325
+Grade: none
+Turn 166:
+> 416325
+Grade: 1 bull
+Turn 167:
+> 614325
+Grade: 1 bull
+Turn 168:
+> 164325
+Grade: none
+Turn 169:
+> 461325
+Grade: none
+Turn 170:
+> 641325
+Grade: none
+Turn 171:
+> 643125
+Grade: none
+Turn 172:
+> 463125
+Grade: none
+Turn 173:
+> 364125
+Grade: 1 bull
+Turn 174:
+> 634125
+Grade: none
+Turn 175:
+> 436125
+Grade: none
+Turn 176:
+> 346125
+Grade: 1 bull
+Turn 177:
+> 246135
+Grade: none
+Turn 178:
+> 426135
+Grade: none
+Turn 179:
+> 624135
+Grade: none
+Turn 180:
+> 264135
+Grade: none
+Turn 181:
+> 462135
+Grade: 1 bull
+Turn 182:
+> 642135
+Grade: 1 bull
+Turn 183:
+> 142635
+Grade: 1 bull
+Turn 184:
+> 412635
+Grade: 2 bulls
+Turn 185:
+> 214635
+Grade: 1 bull
+Turn 186:
+> 124635
+Grade: none
+Turn 187:
+> 421635
+Grade: none
+Turn 188:
+> 241635
+Grade: none
+Turn 189:
+> 261435
+Grade: none
+Turn 190:
+> 621435
+Grade: none
+Turn 191:
+> 126435
+Grade: none
+Turn 192:
+> 216435
+Grade: 1 bull
+Turn 193:
+> 612435
+Grade: 2 bulls
+Turn 194:
+> 162435
+Grade: 1 bull
+Turn 195:
+> 164235
+Grade: none
+Turn 196:
+> 614235
+Grade: 1 bull
+Turn 197:
+> 416235
+Grade: 1 bull
+Turn 198:
+> 146235
+Grade: none
+Turn 199:
+> 641235
+Grade: none
+Turn 200:
+> 461235
+Grade: none
+Turn 201:
+> 361245
+Grade: 1 bull
+Turn 202:
+> 631245
+Grade: none
+Turn 203:
+> 136245
+Grade: none
+Turn 204:
+> 316245
+Grade: 2 bulls
+Turn 205:
+> 613245
+Grade: 1 bull
+Turn 206:
+> 163245
+Grade: none
+Turn 207:
+> 263145
+Grade: none
+Turn 208:
+> 623145
+Grade: none
+Turn 209:
+> 326145
+Grade: 1 bull
+Turn 210:
+> 236145
+Grade: none
+Turn 211:
+> 632145
+Grade: 1 bull
+Turn 212:
+> 362145
+Grade: 2 bulls
+Turn 213:
+> 312645
+Grade: 3 bulls
+Turn 214:
+> 132645
+Grade: 1 bull
+Turn 215:
+> 231645
+Grade: none
+Turn 216:
+> 321645
+Grade: 1 bull
+Turn 217:
+> 123645
+Grade: none
+Turn 218:
+> 213645
+Grade: 1 bull
+Turn 219:
+> 216345
+Grade: 1 bull
+Turn 220:
+> 126345
+Grade: none
+Turn 221:
+> 621345
+Grade: none
+Turn 222:
+> 261345
+Grade: none
+Turn 223:
+> 162345
+Grade: 1 bull
+Turn 224:
+> 612345
+Grade: 2 bulls
+Turn 225:
+> 412365
+Grade: 3 bulls
+Turn 226:
+> 142365
+Grade: 2 bulls
+Turn 227:
+> 241365
+Grade: 1 bull
+Turn 228:
+> 421365
+Grade: 1 bull
+Turn 229:
+> 124365
+Grade: 1 bull
+Turn 230:
+> 214365
+Grade: 2 bulls
+Turn 231:
+> 314265
+Grade: 3 bulls
+Turn 232:
+> 134265
+Grade: 1 bull
+Turn 233:
+> 431265
+Grade: 1 bull
+Turn 234:
+> 341265
+Grade: 2 bulls
+Turn 235:
+> 143265
+Grade: 1 bull
+Turn 236:
+> 413265
+Grade: 2 bulls
+Turn 237:
+> 423165
+Grade: 1 bull
+Turn 238:
+> 243165
+Grade: 1 bull
+Turn 239:
+> 342165
+Grade: 3 bulls
+Turn 240:
+> 432165
+Grade: 2 bulls
+Turn 241:
+> 234165
+Grade: 1 bull
+Turn 242:
+> 324165
+Grade: 2 bulls
+Turn 243:
+> 321465
+Grade: 2 bulls
+Turn 244:
+> 231465
+Grade: 1 bull
+Turn 245:
+> 132465
+Grade: 2 bulls
+Turn 246:
+> 312465
+Grade: 4 bulls
+Turn 247:
+> 213465
+Grade: 2 bulls
+Turn 248:
+> 123465
+Grade: 1 bull
+Turn 249:
+> 153462
+Grade: 1 bull
+Turn 250:
+> 513462
+Grade: 2 bulls
+Turn 251:
+> 315462
+Grade: 3 bulls
+Turn 252:
+> 135462
+Grade: 1 bull
+Turn 253:
+> 531462
+Grade: 1 bull
+Turn 254:
+> 351462
+Grade: 2 bulls
+Turn 255:
+> 451362
+Grade: 1 bull
+Turn 256:
+> 541362
+Grade: 1 bull
+Turn 257:
+> 145362
+Grade: 1 bull
+Turn 258:
+> 415362
+Grade: 2 bulls
+Turn 259:
+> 514362
+Grade: 2 bulls
+Turn 260:
+> 154362
+Grade: 1 bull
+Turn 261:
+> 134562
+Grade: 2 bulls
+Turn 262:
+> 314562
+Grade: 4 bulls
+Turn 263:
+> 413562
+Grade: 3 bulls
+Turn 264:
+> 143562
+Grade: 2 bulls
+Turn 265:
+> 341562
+Grade: 3 bulls
+Turn 266:
+> 431562
+Grade: 2 bulls
+Turn 267:
+> 435162
+Grade: 1 bull
+Turn 268:
+> 345162
+Grade: 2 bulls
+Turn 269:
+> 543162
+Grade: 1 bull
+Turn 270:
+> 453162
+Grade: 1 bull
+Turn 271:
+> 354162
+Grade: 2 bulls
+Turn 272:
+> 534162
+Grade: 1 bull
+Turn 273:
+> 634152
+Grade: none
+Turn 274:
+> 364152
+Grade: 1 bull
+Turn 275:
+> 463152
+Grade: none
+Turn 276:
+> 643152
+Grade: none
+Turn 277:
+> 346152
+Grade: 1 bull
+Turn 278:
+> 436152
+Grade: none
+Turn 279:
+> 136452
+Grade: none
+Turn 280:
+> 316452
+Grade: 2 bulls
+Turn 281:
+> 613452
+Grade: 1 bull
+Turn 282:
+> 163452
+Grade: none
+Turn 283:
+> 361452
+Grade: 1 bull
+Turn 284:
+> 631452
+Grade: none
+Turn 285:
+> 641352
+Grade: none
+Turn 286:
+> 461352
+Grade: none
+Turn 287:
+> 164352
+Grade: none
+Turn 288:
+> 614352
+Grade: 1 bull
+Turn 289:
+> 416352
+Grade: 1 bull
+Turn 290:
+> 146352
+Grade: none
+Turn 291:
+> 143652
+Grade: none
+Turn 292:
+> 413652
+Grade: 1 bull
+Turn 293:
+> 314652
+Grade: 2 bulls
+Turn 294:
+> 134652
+Grade: none
+Turn 295:
+> 431652
+Grade: none
+Turn 296:
+> 341652
+Grade: 1 bull
+Turn 297:
+> 541632
+Grade: none
+Turn 298:
+> 451632
+Grade: none
+Turn 299:
+> 154632
+Grade: none
+Turn 300:
+> 514632
+Grade: 1 bull
+Turn 301:
+> 415632
+Grade: 1 bull
+Turn 302:
+> 145632
+Grade: none
+Turn 303:
+> 645132
+Grade: none
+Turn 304:
+> 465132
+Grade: none
+Turn 305:
+> 564132
+Grade: none
+Turn 306:
+> 654132
+Grade: none
+Turn 307:
+> 456132
+Grade: none
+Turn 308:
+> 546132
+Grade: none
+Turn 309:
+> 516432
+Grade: 1 bull
+Turn 310:
+> 156432
+Grade: none
+Turn 311:
+> 651432
+Grade: none
+Turn 312:
+> 561432
+Grade: none
+Turn 313:
+> 165432
+Grade: none
+Turn 314:
+> 615432
+Grade: 1 bull
+Turn 315:
+> 614532
+Grade: 2 bulls
+Turn 316:
+> 164532
+Grade: 1 bull
+Turn 317:
+> 461532
+Grade: 1 bull
+Turn 318:
+> 641532
+Grade: 1 bull
+Turn 319:
+> 146532
+Grade: 1 bull
+Turn 320:
+> 416532
+Grade: 2 bulls
+Turn 321:
+> 316542
+Grade: 3 bulls
+Turn 322:
+> 136542
+Grade: 1 bull
+Turn 323:
+> 631542
+Grade: 1 bull
+Turn 324:
+> 361542
+Grade: 2 bulls
+Turn 325:
+> 163542
+Grade: 1 bull
+Turn 326:
+> 613542
+Grade: 2 bulls
+Turn 327:
+> 513642
+Grade: 1 bull
+Turn 328:
+> 153642
+Grade: none
+Turn 329:
+> 351642
+Grade: 1 bull
+Turn 330:
+> 531642
+Grade: none
+Turn 331:
+> 135642
+Grade: none
+Turn 332:
+> 315642
+Grade: 2 bulls
+Turn 333:
+> 365142
+Grade: 1 bull
+Turn 334:
+> 635142
+Grade: none
+Turn 335:
+> 536142
+Grade: none
+Turn 336:
+> 356142
+Grade: 1 bull
+Turn 337:
+> 653142
+Grade: none
+Turn 338:
+> 563142
+Grade: none
+Turn 339:
+> 561342
+Grade: none
+Turn 340:
+> 651342
+Grade: none
+Turn 341:
+> 156342
+Grade: none
+Turn 342:
+> 516342
+Grade: 1 bull
+Turn 343:
+> 615342
+Grade: 1 bull
+Turn 344:
+> 165342
+Grade: none
+Turn 345:
+> 465312
+Grade: none
+Turn 346:
+> 645312
+Grade: none
+Turn 347:
+> 546312
+Grade: none
+Turn 348:
+> 456312
+Grade: none
+Turn 349:
+> 654312
+Grade: none
+Turn 350:
+> 564312
+Grade: none
+Turn 351:
+> 364512
+Grade: 2 bulls
+Turn 352:
+> 634512
+Grade: 1 bull
+Turn 353:
+> 436512
+Grade: 1 bull
+Turn 354:
+> 346512
+Grade: 2 bulls
+Turn 355:
+> 643512
+Grade: 1 bull
+Turn 356:
+> 463512
+Grade: 1 bull
+Turn 357:
+> 453612
+Grade: none
+Turn 358:
+> 543612
+Grade: none
+Turn 359:
+> 345612
+Grade: 1 bull
+Turn 360:
+> 435612
+Grade: none
+Turn 361:
+> 534612
+Grade: none
+Turn 362:
+> 354612
+Grade: 1 bull
+Turn 363:
+> 356412
+Grade: 1 bull
+Turn 364:
+> 536412
+Grade: none
+Turn 365:
+> 635412
+Grade: none
+Turn 366:
+> 365412
+Grade: 1 bull
+Turn 367:
+> 563412
+Grade: none
+Turn 368:
+> 653412
+Grade: none
+Turn 369:
+> 652413
+Grade: 1 bull
+Turn 370:
+> 562413
+Grade: 1 bull
+Turn 371:
+> 265413
+Grade: none
+Turn 372:
+> 625413
+Grade: none
+Turn 373:
+> 526413
+Grade: none
+Turn 374:
+> 256413
+Grade: none
+Turn 375:
+> 456213
+Grade: none
+Turn 376:
+> 546213
+Grade: none
+Turn 377:
+> 645213
+Grade: none
+Turn 378:
+> 465213
+Grade: none
+Turn 379:
+> 564213
+Grade: none
+Turn 380:
+> 654213
+Grade: none
+Turn 381:
+> 624513
+Grade: 1 bull
+Turn 382:
+> 264513
+Grade: 1 bull
+Turn 383:
+> 462513
+Grade: 2 bulls
+Turn 384:
+> 642513
+Grade: 2 bulls
+Turn 385:
+> 246513
+Grade: 1 bull
+Turn 386:
+> 426513
+Grade: 1 bull
+Turn 387:
+> 425613
+Grade: none
+Turn 388:
+> 245613
+Grade: none
+Turn 389:
+> 542613
+Grade: 1 bull
+Turn 390:
+> 452613
+Grade: 1 bull
+Turn 391:
+> 254613
+Grade: none
+Turn 392:
+> 524613
+Grade: none
+Turn 393:
+> 124653
+Grade: none
+Turn 394:
+> 214653
+Grade: 1 bull
+Turn 395:
+> 412653
+Grade: 2 bulls
+Turn 396:
+> 142653
+Grade: 1 bull
+Turn 397:
+> 241653
+Grade: none
+Turn 398:
+> 421653
+Grade: none
+Turn 399:
+> 621453
+Grade: none
+Turn 400:
+> 261453
+Grade: none
+Turn 401:
+> 162453
+Grade: 1 bull
+Turn 402:
+> 612453
+Grade: 2 bulls
+Turn 403:
+> 216453
+Grade: 1 bull
+Turn 404:
+> 126453
+Grade: none
+Turn 405:
+> 146253
+Grade: none
+Turn 406:
+> 416253
+Grade: 1 bull
+Turn 407:
+> 614253
+Grade: 1 bull
+Turn 408:
+> 164253
+Grade: none
+Turn 409:
+> 461253
+Grade: none
+Turn 410:
+> 641253
+Grade: none
+Turn 411:
+> 642153
+Grade: 1 bull
+Turn 412:
+> 462153
+Grade: 1 bull
+Turn 413:
+> 264153
+Grade: none
+Turn 414:
+> 624153
+Grade: none
+Turn 415:
+> 426153
+Grade: none
+Turn 416:
+> 246153
+Grade: none
+Turn 417:
+> 546123
+Grade: none
+Turn 418:
+> 456123
+Grade: none
+Turn 419:
+> 654123
+Grade: none
+Turn 420:
+> 564123
+Grade: none
+Turn 421:
+> 465123
+Grade: none
+Turn 422:
+> 645123
+Grade: none
+Turn 423:
+> 145623
+Grade: none
+Turn 424:
+> 415623
+Grade: 1 bull
+Turn 425:
+> 514623
+Grade: 1 bull
+Turn 426:
+> 154623
+Grade: none
+Turn 427:
+> 451623
+Grade: none
+Turn 428:
+> 541623
+Grade: none
+Turn 429:
+> 561423
+Grade: none
+Turn 430:
+> 651423
+Grade: none
+Turn 431:
+> 156423
+Grade: none
+Turn 432:
+> 516423
+Grade: 1 bull
+Turn 433:
+> 615423
+Grade: 1 bull
+Turn 434:
+> 165423
+Grade: none
+Turn 435:
+> 164523
+Grade: 1 bull
+Turn 436:
+> 614523
+Grade: 2 bulls
+Turn 437:
+> 416523
+Grade: 2 bulls
+Turn 438:
+> 146523
+Grade: 1 bull
+Turn 439:
+> 641523
+Grade: 1 bull
+Turn 440:
+> 461523
+Grade: 1 bull
+Turn 441:
+> 261543
+Grade: 1 bull
+Turn 442:
+> 621543
+Grade: 1 bull
+Turn 443:
+> 126543
+Grade: 1 bull
+Turn 444:
+> 216543
+Grade: 2 bulls
+Turn 445:
+> 612543
+Grade: 3 bulls
+Turn 446:
+> 162543
+Grade: 2 bulls
+Turn 447:
+> 562143
+Grade: 1 bull
+Turn 448:
+> 652143
+Grade: 1 bull
+Turn 449:
+> 256143
+Grade: none
+Turn 450:
+> 526143
+Grade: none
+Turn 451:
+> 625143
+Grade: none
+Turn 452:
+> 265143
+Grade: none
+Turn 453:
+> 215643
+Grade: 1 bull
+Turn 454:
+> 125643
+Grade: none
+Turn 455:
+> 521643
+Grade: none
+Turn 456:
+> 251643
+Grade: none
+Turn 457:
+> 152643
+Grade: 1 bull
+Turn 458:
+> 512643
+Grade: 2 bulls
+Turn 459:
+> 516243
+Grade: 1 bull
+Turn 460:
+> 156243
+Grade: none
+Turn 461:
+> 651243
+Grade: none
+Turn 462:
+> 561243
+Grade: none
+Turn 463:
+> 165243
+Grade: none
+Turn 464:
+> 615243
+Grade: 1 bull
+Turn 465:
+> 415263
+Grade: 2 bulls
+Turn 466:
+> 145263
+Grade: 1 bull
+Turn 467:
+> 541263
+Grade: 1 bull
+Turn 468:
+> 451263
+Grade: 1 bull
+Turn 469:
+> 154263
+Grade: 1 bull
+Turn 470:
+> 514263
+Grade: 2 bulls
+Turn 471:
+> 214563
+Grade: 3 bulls
+Turn 472:
+> 124563
+Grade: 2 bulls
+Turn 473:
+> 421563
+Grade: 2 bulls
+Turn 474:
+> 241563
+Grade: 2 bulls
+Turn 475:
+> 142563
+Grade: 3 bulls
+Turn 476:
+> 412563
+Grade: 4 bulls
+Turn 477:
+> 452163
+Grade: 2 bulls
+Turn 478:
+> 542163
+Grade: 2 bulls
+Turn 479:
+> 245163
+Grade: 1 bull
+Turn 480:
+> 425163
+Grade: 1 bull
+Turn 481:
+> 524163
+Grade: 1 bull
+Turn 482:
+> 254163
+Grade: 1 bull
+Turn 483:
+> 251463
+Grade: 1 bull
+Turn 484:
+> 521463
+Grade: 1 bull
+Turn 485:
+> 125463
+Grade: 1 bull
+Turn 486:
+> 215463
+Grade: 2 bulls
+Turn 487:
+> 512463
+Grade: 3 bulls
+Turn 488:
+> 152463
+Grade: 2 bulls
+Turn 489:
+> 152364
+Grade: 3 bulls
+Turn 490:
+> 512364
+Grade: 4 bulls
+Turn 491:
+> 215364
+Grade: 3 bulls
+Turn 492:
+> 125364
+Grade: 2 bulls
+Turn 493:
+> 521364
+Grade: 2 bulls
+Turn 494:
+> 251364
+Grade: 2 bulls
+Turn 495:
+> 351264
+Grade: 3 bulls
+Turn 496:
+> 531264
+Grade: 2 bulls
+Turn 497:
+> 135264
+Grade: 2 bulls
+Turn 498:
+> 315264
+Grade: 4 bulls
+Turn 499:
+> 513264
+Grade: 3 bulls
+Turn 500:
+> 153264
+Grade: 2 bulls
+Turn 501:
+> 123564
+Grade: 3 bulls
+Turn 502:
+> 213564
+Grade: 4 bulls
+Turn 503:
+> 312564
+Grade: 6 bulls
+?[1;31m
+Start test 4?[0m
+Input the length of the secret code:
+> 11
+Input the number of possible symbols in the code:
+> 10
+Error: it's not possible to generate a code with a length of 11 with 10 unique symbols.
+?[1;31m
+Start test 5?[0m
+Input the length of the secret code:
+> 4
+Input the number of possible symbols in the code:
+> 16
+The secret is prepared: **** (0,9),(a-f).
+Okay, let's start a game!
+Turn 1:
+Grade: none
+Turn 2:
+> 0000
+Grade: none
+Turn 3:
+> 1111
+Grade: 1 bull
+Turn 4:
+> 2222
+Grade: 1 bull
+Turn 5:
+> 3333
+Grade: none
+Turn 6:
+> 4444
+Grade: none
+Turn 7:
+> 5555
+Grade: none
+Turn 8:
+> 6666
+Grade: 1 bull
+Turn 9:
+> 7777
+Grade: none
+Turn 10:
+> 8888
+Grade: none
+Turn 11:
+> 9999
+Grade: none
+Turn 12:
+> aaaa
+Grade: none
+Turn 13:
+> bbbb
+Grade: none
+Turn 14:
+> cccc
+Grade: none
+Turn 15:
+> dddd
+Grade: none
+Turn 16:
+> eeee
+Grade: 1 bull
+Turn 17:
+> 126e
+Grade: 1 bull
+Turn 18:
+> 216e
+Grade: 2 bulls
+Turn 19:
+> 612e
+Grade: 1 bull
+Turn 20:
+> 162e
+Grade: none
+Turn 21:
+> 261e
+Grade: none
+Turn 22:
+> 621e
+Grade: none
+Turn 23:
+> e216
+Grade: 1 bull
+Turn 24:
+> 2e16
+Grade: none
+Turn 25:
+> 1e26
+Grade: none
+Turn 26:
+> e126
+Grade: 2 bulls
+Turn 27:
+> 21e6
+Grade: 1 bull
+Turn 28:
+> 12e6
+Grade: none
+Turn 29:
+> 16e2
+Grade: 1 bull
+Turn 30:
+> 61e2
+Grade: 2 bulls
+Turn 31:
+> e162
+Grade: 4 bulls
+?[1;31m
+Start test 6?[0m
+Input the length of the secret code:
+> 6
+Input the number of possible symbols in the code:
+> 36
+The secret is prepared: ****** (0,9),(a-z).
+Okay, let's start a game!
+Turn 1:
+Grade: none
+Turn 2:
+> 000000
+Grade: 1 bull
+Turn 3:
+> 111111
+Grade: none
+Turn 4:
+> 222222
+Grade: none
+Turn 5:
+> 333333
+Grade: none
+Turn 6:
+> 444444
+Grade: none
+Turn 7:
+> 555555
+Grade: none
+Turn 8:
+> 666666
+Grade: none
+Turn 9:
+> 777777
+Grade: none
+Turn 10:
+> 888888
+Grade: none
+Turn 11:
+> 999999
+Grade: none
+Turn 12:
+> aaaaaa
+Grade: 1 bull
+Turn 13:
+> bbbbbb
+Grade: none
+Turn 14:
+> cccccc
+Grade: none
+Turn 15:
+> dddddd
+Grade: none
+Turn 16:
+> eeeeee
+Grade: none
+Turn 17:
+> ffffff
+Grade: none
+Turn 18:
+> gggggg
+Grade: none
+Turn 19:
+> hhhhhh
+Grade: none
+Turn 20:
+> iiiiii
+Grade: none
+Turn 21:
+> jjjjjj
+Grade: 1 bull
+Turn 22:
+> kkkkkk
+Grade: none
+Turn 23:
+> llllll
+Grade: none
+Turn 24:
+> mmmmmm
+Grade: none
+Turn 25:
+> nnnnnn
+Grade: 1 bull
+Turn 26:
+> oooooo
+Grade: none
+Turn 27:
+> pppppp
+Grade: none
+Turn 28:
+> qqqqqq
+Grade: none
+Turn 29:
+> rrrrrr
+Grade: 1 bull
+Turn 30:
+> ssssss
+Grade: none
+Turn 31:
+> tttttt
+Grade: none
+Turn 32:
+> uuuuuu
+Grade: none
+Turn 33:
+> vvvvvv
+Grade: none
+Turn 34:
+> wwwwww
+Grade: 1 bull
+Turn 35:
+> 0ajnrw
+Grade: none
+Turn 36:
+> a0jnrw
+Grade: 1 bull
+Turn 37:
+> j0anrw
+Grade: 1 bull
+Turn 38:
+> 0janrw
+Grade: none
+Turn 39:
+> aj0nrw
+Grade: none
+Turn 40:
+> ja0nrw
+Grade: none
+Turn 41:
+> na0jrw
+Grade: 1 bull
+Turn 42:
+> an0jrw
+Grade: 1 bull
+Turn 43:
+> 0najrw
+Grade: 1 bull
+Turn 44:
+> n0ajrw
+Grade: 2 bulls
+Turn 45:
+> a0njrw
+Grade: 2 bulls
+Turn 46:
+> 0anjrw
+Grade: 1 bull
+Turn 47:
+> 0jnarw
+Grade: none
+Turn 48:
+> j0narw
+Grade: 1 bull
+Turn 49:
+> n0jarw
+Grade: 1 bull
+Turn 50:
+> 0njarw
+Grade: none
+Turn 51:
+> jn0arw
+Grade: none
+Turn 52:
+> nj0arw
+Grade: none
+Turn 53:
+> nja0rw
+Grade: none
+Turn 54:
+> jna0rw
+Grade: none
+Turn 55:
+> anj0rw
+Grade: none
+Turn 56:
+> naj0rw
+Grade: none
+Turn 57:
+> jan0rw
+Grade: none
+Turn 58:
+> ajn0rw
+Grade: none
+Turn 59:
+> rjn0aw
+Grade: 2 bulls
+Turn 60:
+> jrn0aw
+Grade: 1 bull
+Turn 61:
+> nrj0aw
+Grade: 1 bull
+Turn 62:
+> rnj0aw
+Grade: 2 bulls
+Turn 63:
+> jnr0aw
+Grade: 1 bull
+Turn 64:
+> njr0aw
+Grade: 1 bull
+Turn 65:
+> 0jrnaw
+Grade: 1 bull
+Turn 66:
+> j0rnaw
+Grade: 2 bulls
+Turn 67:
+> r0jnaw
+Grade: 3 bulls
+Turn 68:
+> 0rjnaw
+Grade: 1 bull
+Turn 69:
+> jr0naw
+Grade: 1 bull
+Turn 70:
+> rj0naw
+Grade: 2 bulls
+Turn 71:
+> rn0jaw
+Grade: 3 bulls
+Turn 72:
+> nr0jaw
+Grade: 2 bulls
+Turn 73:
+> 0rnjaw
+Grade: 2 bulls
+Turn 74:
+> r0njaw
+Grade: 4 bulls
+Turn 75:
+> n0rjaw
+Grade: 3 bulls
+Turn 76:
+> 0nrjaw
+Grade: 2 bulls
+Turn 77:
+> 0njraw
+Grade: 1 bull
+Turn 78:
+> n0jraw
+Grade: 2 bulls
+Turn 79:
+> j0nraw
+Grade: 2 bulls
+Turn 80:
+> 0jnraw
+Grade: 1 bull
+Turn 81:
+> nj0raw
+Grade: 1 bull
+Turn 82:
+> jn0raw
+Grade: 1 bull
+Turn 83:
+> an0rjw
+Grade: none
+Turn 84:
+> na0rjw
+Grade: none
+Turn 85:
+> 0anrjw
+Grade: none
+Turn 86:
+> a0nrjw
+Grade: 1 bull
+Turn 87:
+> n0arjw
+Grade: 1 bull
+Turn 88:
+> 0narjw
+Grade: none
+Turn 89:
+> rna0jw
+Grade: 1 bull
+Turn 90:
+> nra0jw
+Grade: none
+Turn 91:
+> arn0jw
+Grade: none
+Turn 92:
+> ran0jw
+Grade: 1 bull
+Turn 93:
+> nar0jw
+Grade: none
+Turn 94:
+> anr0jw
+Grade: none
+Turn 95:
+> a0rnjw
+Grade: 1 bull
+Turn 96:
+> 0arnjw
+Grade: none
+Turn 97:
+> ra0njw
+Grade: 1 bull
+Turn 98:
+> ar0njw
+Grade: none
+Turn 99:
+> 0ranjw
+Grade: none
+Turn 100:
+> r0anjw
+Grade: 2 bulls
+Turn 101:
+> r0najw
+Grade: 2 bulls
+Turn 102:
+> 0rnajw
+Grade: none
+Turn 103:
+> nr0ajw
+Grade: none
+Turn 104:
+> rn0ajw
+Grade: 1 bull
+Turn 105:
+> 0nrajw
+Grade: none
+Turn 106:
+> n0rajw
+Grade: 1 bull
+Turn 107:
+> j0ranw
+Grade: 1 bull
+Turn 108:
+> 0jranw
+Grade: none
+Turn 109:
+> rj0anw
+Grade: 1 bull
+Turn 110:
+> jr0anw
+Grade: none
+Turn 111:
+> 0rjanw
+Grade: none
+Turn 112:
+> r0janw
+Grade: 2 bulls
+Turn 113:
+> a0jrnw
+Grade: 1 bull
+Turn 114:
+> 0ajrnw
+Grade: none
+Turn 115:
+> ja0rnw
+Grade: none
+Turn 116:
+> aj0rnw
+Grade: none
+Turn 117:
+> 0jarnw
+Grade: none
+Turn 118:
+> j0arnw
+Grade: 1 bull
+Turn 119:
+> jra0nw
+Grade: none
+Turn 120:
+> rja0nw
+Grade: 1 bull
+Turn 121:
+> ajr0nw
+Grade: none
+Turn 122:
+> jar0nw
+Grade: none
+Turn 123:
+> raj0nw
+Grade: 1 bull
+Turn 124:
+> arj0nw
+Grade: none
+Turn 125:
+> ar0jnw
+Grade: 1 bull
+Turn 126:
+> ra0jnw
+Grade: 2 bulls
+Turn 127:
+> 0arjnw
+Grade: 1 bull
+Turn 128:
+> a0rjnw
+Grade: 2 bulls
+Turn 129:
+> r0ajnw
+Grade: 3 bulls
+Turn 130:
+> 0rajnw
+Grade: 1 bull
+Turn 131:
+> nraj0w
+Grade: 1 bull
+Turn 132:
+> rnaj0w
+Grade: 2 bulls
+Turn 133:
+> anrj0w
+Grade: 1 bull
+Turn 134:
+> narj0w
+Grade: 1 bull
+Turn 135:
+> ranj0w
+Grade: 2 bulls
+Turn 136:
+> arnj0w
+Grade: 1 bull
+Turn 137:
+> jrna0w
+Grade: none
+Turn 138:
+> rjna0w
+Grade: 1 bull
+Turn 139:
+> njra0w
+Grade: none
+Turn 140:
+> jnra0w
+Grade: none
+Turn 141:
+> rnja0w
+Grade: 1 bull
+Turn 142:
+> nrja0w
+Grade: none
+Turn 143:
+> najr0w
+Grade: none
+Turn 144:
+> anjr0w
+Grade: none
+Turn 145:
+> jnar0w
+Grade: none
+Turn 146:
+> njar0w
+Grade: none
+Turn 147:
+> ajnr0w
+Grade: none
+Turn 148:
+> janr0w
+Grade: none
+Turn 149:
+> jarn0w
+Grade: none
+Turn 150:
+> ajrn0w
+Grade: none
+Turn 151:
+> rjan0w
+Grade: 1 bull
+Turn 152:
+> jran0w
+Grade: none
+Turn 153:
+> arjn0w
+Grade: none
+Turn 154:
+> rajn0w
+Grade: 1 bull
+Turn 155:
+> wajn0r
+Grade: none
+Turn 156:
+> awjn0r
+Grade: none
+Turn 157:
+> jwan0r
+Grade: none
+Turn 158:
+> wjan0r
+Grade: none
+Turn 159:
+> ajwn0r
+Grade: 1 bull
+Turn 160:
+> jawn0r
+Grade: 1 bull
+Turn 161:
+> nawj0r
+Grade: 2 bulls
+Turn 162:
+> anwj0r
+Grade: 2 bulls
+Turn 163:
+> wnaj0r
+Grade: 1 bull
+Turn 164:
+> nwaj0r
+Grade: 1 bull
+Turn 165:
+> awnj0r
+Grade: 1 bull
+Turn 166:
+> wanj0r
+Grade: 1 bull
+Turn 167:
+> wjna0r
+Grade: none
+Turn 168:
+> jwna0r
+Grade: none
+Turn 169:
+> nwja0r
+Grade: none
+Turn 170:
+> wnja0r
+Grade: none
+Turn 171:
+> jnwa0r
+Grade: 1 bull
+Turn 172:
+> njwa0r
+Grade: 1 bull
+Turn 173:
+> njaw0r
+Grade: none
+Turn 174:
+> jnaw0r
+Grade: none
+Turn 175:
+> anjw0r
+Grade: none
+Turn 176:
+> najw0r
+Grade: none
+Turn 177:
+> janw0r
+Grade: none
+Turn 178:
+> ajnw0r
+Grade: none
+Turn 179:
+> 0jnwar
+Grade: 1 bull
+Turn 180:
+> j0nwar
+Grade: 2 bulls
+Turn 181:
+> n0jwar
+Grade: 2 bulls
+Turn 182:
+> 0njwar
+Grade: 1 bull
+Turn 183:
+> jn0war
+Grade: 1 bull
+Turn 184:
+> nj0war
+Grade: 1 bull
+Turn 185:
+> wj0nar
+Grade: 1 bull
+Turn 186:
+> jw0nar
+Grade: 1 bull
+Turn 187:
+> 0wjnar
+Grade: 1 bull
+Turn 188:
+> w0jnar
+Grade: 2 bulls
+Turn 189:
+> j0wnar
+Grade: 3 bulls
+Turn 190:
+> 0jwnar
+Grade: 2 bulls
+Turn 191:
+> 0nwjar
+Grade: 3 bulls
+Turn 192:
+> n0wjar
+Grade: 4 bulls
+Turn 193:
+> w0njar
+Grade: 3 bulls
+Turn 194:
+> 0wnjar
+Grade: 2 bulls
+Turn 195:
+> nw0jar
+Grade: 2 bulls
+Turn 196:
+> wn0jar
+Grade: 2 bulls
+Turn 197:
+> wnj0ar
+Grade: 1 bull
+Turn 198:
+> nwj0ar
+Grade: 1 bull
+Turn 199:
+> jwn0ar
+Grade: 1 bull
+Turn 200:
+> wjn0ar
+Grade: 1 bull
+Turn 201:
+> njw0ar
+Grade: 2 bulls
+Turn 202:
+> jnw0ar
+Grade: 2 bulls
+Turn 203:
+> anw0jr
+Grade: 1 bull
+Turn 204:
+> naw0jr
+Grade: 1 bull
+Turn 205:
+> wan0jr
+Grade: none
+Turn 206:
+> awn0jr
+Grade: none
+Turn 207:
+> nwa0jr
+Grade: none
+Turn 208:
+> wna0jr
+Grade: none
+Turn 209:
+> 0nawjr
+Grade: none
+Turn 210:
+> n0awjr
+Grade: 1 bull
+Turn 211:
+> a0nwjr
+Grade: 1 bull
+Turn 212:
+> 0anwjr
+Grade: none
+Turn 213:
+> na0wjr
+Grade: none
+Turn 214:
+> an0wjr
+Grade: none
+Turn 215:
+> aw0njr
+Grade: none
+Turn 216:
+> wa0njr
+Grade: none
+Turn 217:
+> 0awnjr
+Grade: 1 bull
+Turn 218:
+> a0wnjr
+Grade: 2 bulls
+Turn 219:
+> w0anjr
+Grade: 1 bull
+Turn 220:
+> 0wanjr
+Grade: none
+Turn 221:
+> 0wnajr
+Grade: none
+Turn 222:
+> w0najr
+Grade: 1 bull
+Turn 223:
+> n0wajr
+Grade: 2 bulls
+Turn 224:
+> 0nwajr
+Grade: 1 bull
+Turn 225:
+> wn0ajr
+Grade: none
+Turn 226:
+> nw0ajr
+Grade: none
+Turn 227:
+> jw0anr
+Grade: none
+Turn 228:
+> wj0anr
+Grade: none
+Turn 229:
+> 0jwanr
+Grade: 1 bull
+Turn 230:
+> j0wanr
+Grade: 2 bulls
+Turn 231:
+> w0janr
+Grade: 1 bull
+Turn 232:
+> 0wjanr
+Grade: none
+Turn 233:
+> awj0nr
+Grade: none
+Turn 234:
+> waj0nr
+Grade: none
+Turn 235:
+> jaw0nr
+Grade: 1 bull
+Turn 236:
+> ajw0nr
+Grade: 1 bull
+Turn 237:
+> wja0nr
+Grade: none
+Turn 238:
+> jwa0nr
+Grade: none
+Turn 239:
+> j0awnr
+Grade: 1 bull
+Turn 240:
+> 0jawnr
+Grade: none
+Turn 241:
+> aj0wnr
+Grade: none
+Turn 242:
+> ja0wnr
+Grade: none
+Turn 243:
+> 0ajwnr
+Grade: none
+Turn 244:
+> a0jwnr
+Grade: 1 bull
+Turn 245:
+> a0wjnr
+Grade: 3 bulls
+Turn 246:
+> 0awjnr
+Grade: 2 bulls
+Turn 247:
+> wa0jnr
+Grade: 1 bull
+Turn 248:
+> aw0jnr
+Grade: 1 bull
+Turn 249:
+> 0wajnr
+Grade: 1 bull
+Turn 250:
+> w0ajnr
+Grade: 2 bulls
+Turn 251:
+> n0ajwr
+Grade: 2 bulls
+Turn 252:
+> 0najwr
+Grade: 1 bull
+Turn 253:
+> an0jwr
+Grade: 1 bull
+Turn 254:
+> na0jwr
+Grade: 1 bull
+Turn 255:
+> 0anjwr
+Grade: 1 bull
+Turn 256:
+> a0njwr
+Grade: 2 bulls
+Turn 257:
+> j0nawr
+Grade: 1 bull
+Turn 258:
+> 0jnawr
+Grade: none
+Turn 259:
+> nj0awr
+Grade: none
+Turn 260:
+> jn0awr
+Grade: none
+Turn 261:
+> 0njawr
+Grade: none
+Turn 262:
+> n0jawr
+Grade: 1 bull
+Turn 263:
+> naj0wr
+Grade: none
+Turn 264:
+> anj0wr
+Grade: none
+Turn 265:
+> jna0wr
+Grade: none
+Turn 266:
+> nja0wr
+Grade: none
+Turn 267:
+> ajn0wr
+Grade: none
+Turn 268:
+> jan0wr
+Grade: none
+Turn 269:
+> ja0nwr
+Grade: none
+Turn 270:
+> aj0nwr
+Grade: none
+Turn 271:
+> 0janwr
+Grade: none
+Turn 272:
+> j0anwr
+Grade: 1 bull
+Turn 273:
+> a0jnwr
+Grade: 1 bull
+Turn 274:
+> 0ajnwr
+Grade: none
+Turn 275:
+> 0rjnwa
+Grade: none
+Turn 276:
+> r0jnwa
+Grade: 2 bulls
+Turn 277:
+> j0rnwa
+Grade: 1 bull
+Turn 278:
+> 0jrnwa
+Grade: none
+Turn 279:
+> rj0nwa
+Grade: 1 bull
+Turn 280:
+> jr0nwa
+Grade: none
+Turn 281:
+> nr0jwa
+Grade: 1 bull
+Turn 282:
+> rn0jwa
+Grade: 2 bulls
+Turn 283:
+> 0nrjwa
+Grade: 1 bull
+Turn 284:
+> n0rjwa
+Grade: 2 bulls
+Turn 285:
+> r0njwa
+Grade: 3 bulls
+Turn 286:
+> 0rnjwa
+Grade: 1 bull
+Turn 287:
+> 0jnrwa
+Grade: none
+Turn 288:
+> j0nrwa
+Grade: 1 bull
+Turn 289:
+> n0jrwa
+Grade: 1 bull
+Turn 290:
+> 0njrwa
+Grade: none
+Turn 291:
+> jn0rwa
+Grade: none
+Turn 292:
+> nj0rwa
+Grade: none
+Turn 293:
+> njr0wa
+Grade: none
+Turn 294:
+> jnr0wa
+Grade: none
+Turn 295:
+> rnj0wa
+Grade: 1 bull
+Turn 296:
+> nrj0wa
+Grade: none
+Turn 297:
+> jrn0wa
+Grade: none
+Turn 298:
+> rjn0wa
+Grade: 1 bull
+Turn 299:
+> wjn0ra
+Grade: none
+Turn 300:
+> jwn0ra
+Grade: none
+Turn 301:
+> nwj0ra
+Grade: none
+Turn 302:
+> wnj0ra
+Grade: none
+Turn 303:
+> jnw0ra
+Grade: 1 bull
+Turn 304:
+> njw0ra
+Grade: 1 bull
+Turn 305:
+> 0jwnra
+Grade: 1 bull
+Turn 306:
+> j0wnra
+Grade: 2 bulls
+Turn 307:
+> w0jnra
+Grade: 1 bull
+Turn 308:
+> 0wjnra
+Grade: none
+Turn 309:
+> jw0nra
+Grade: none
+Turn 310:
+> wj0nra
+Grade: none
+Turn 311:
+> wn0jra
+Grade: 1 bull
+Turn 312:
+> nw0jra
+Grade: 1 bull
+Turn 313:
+> 0wnjra
+Grade: 1 bull
+Turn 314:
+> w0njra
+Grade: 2 bulls
+Turn 315:
+> n0wjra
+Grade: 3 bulls
+Turn 316:
+> 0nwjra
+Grade: 2 bulls
+Turn 317:
+> 0njwra
+Grade: none
+Turn 318:
+> n0jwra
+Grade: 1 bull
+Turn 319:
+> j0nwra
+Grade: 1 bull
+Turn 320:
+> 0jnwra
+Grade: none
+Turn 321:
+> nj0wra
+Grade: none
+Turn 322:
+> jn0wra
+Grade: none
+Turn 323:
+> rn0wja
+Grade: 1 bull
+Turn 324:
+> nr0wja
+Grade: none
+Turn 325:
+> 0rnwja
+Grade: none
+Turn 326:
+> r0nwja
+Grade: 2 bulls
+Turn 327:
+> n0rwja
+Grade: 1 bull
+Turn 328:
+> 0nrwja
+Grade: none
+Turn 329:
+> wnr0ja
+Grade: none
+Turn 330:
+> nwr0ja
+Grade: none
+Turn 331:
+> rwn0ja
+Grade: 1 bull
+Turn 332:
+> wrn0ja
+Grade: none
+Turn 333:
+> nrw0ja
+Grade: 1 bull
+Turn 334:
+> rnw0ja
+Grade: 2 bulls
+Turn 335:
+> r0wnja
+Grade: 3 bulls
+Turn 336:
+> 0rwnja
+Grade: 1 bull
+Turn 337:
+> wr0nja
+Grade: none
+Turn 338:
+> rw0nja
+Grade: 1 bull
+Turn 339:
+> 0wrnja
+Grade: none
+Turn 340:
+> w0rnja
+Grade: 1 bull
+Turn 341:
+> w0nrja
+Grade: 1 bull
+Turn 342:
+> 0wnrja
+Grade: none
+Turn 343:
+> nw0rja
+Grade: none
+Turn 344:
+> wn0rja
+Grade: none
+Turn 345:
+> 0nwrja
+Grade: 1 bull
+Turn 346:
+> n0wrja
+Grade: 2 bulls
+Turn 347:
+> j0wrna
+Grade: 2 bulls
+Turn 348:
+> 0jwrna
+Grade: 1 bull
+Turn 349:
+> wj0rna
+Grade: none
+Turn 350:
+> jw0rna
+Grade: none
+Turn 351:
+> 0wjrna
+Grade: none
+Turn 352:
+> w0jrna
+Grade: 1 bull
+Turn 353:
+> r0jwna
+Grade: 2 bulls
+Turn 354:
+> 0rjwna
+Grade: none
+Turn 355:
+> jr0wna
+Grade: none
+Turn 356:
+> rj0wna
+Grade: 1 bull
+Turn 357:
+> 0jrwna
+Grade: none
+Turn 358:
+> j0rwna
+Grade: 1 bull
+Turn 359:
+> jwr0na
+Grade: none
+Turn 360:
+> wjr0na
+Grade: none
+Turn 361:
+> rjw0na
+Grade: 2 bulls
+Turn 362:
+> jrw0na
+Grade: 1 bull
+Turn 363:
+> wrj0na
+Grade: none
+Turn 364:
+> rwj0na
+Grade: 1 bull
+Turn 365:
+> rw0jna
+Grade: 2 bulls
+Turn 366:
+> wr0jna
+Grade: 1 bull
+Turn 367:
+> 0rwjna
+Grade: 2 bulls
+Turn 368:
+> r0wjna
+Grade: 4 bulls
+Turn 369:
+> w0rjna
+Grade: 2 bulls
+Turn 370:
+> 0wrjna
+Grade: 1 bull
+Turn 371:
+> nwrj0a
+Grade: 1 bull
+Turn 372:
+> wnrj0a
+Grade: 1 bull
+Turn 373:
+> rnwj0a
+Grade: 3 bulls
+Turn 374:
+> nrwj0a
+Grade: 2 bulls
+Turn 375:
+> wrnj0a
+Grade: 1 bull
+Turn 376:
+> rwnj0a
+Grade: 2 bulls
+Turn 377:
+> jwnr0a
+Grade: none
+Turn 378:
+> wjnr0a
+Grade: none
+Turn 379:
+> njwr0a
+Grade: 1 bull
+Turn 380:
+> jnwr0a
+Grade: 1 bull
+Turn 381:
+> wnjr0a
+Grade: none
+Turn 382:
+> nwjr0a
+Grade: none
+Turn 383:
+> nrjw0a
+Grade: none
+Turn 384:
+> rnjw0a
+Grade: 1 bull
+Turn 385:
+> jnrw0a
+Grade: none
+Turn 386:
+> njrw0a
+Grade: none
+Turn 387:
+> rjnw0a
+Grade: 1 bull
+Turn 388:
+> jrnw0a
+Grade: none
+Turn 389:
+> jrwn0a
+Grade: 1 bull
+Turn 390:
+> rjwn0a
+Grade: 2 bulls
+Turn 391:
+> wjrn0a
+Grade: none
+Turn 392:
+> jwrn0a
+Grade: none
+Turn 393:
+> rwjn0a
+Grade: 1 bull
+Turn 394:
+> wrjn0a
+Grade: none
+Turn 395:
+> wran0j
+Grade: none
+Turn 396:
+> rwan0j
+Grade: 1 bull
+Turn 397:
+> awrn0j
+Grade: none
+Turn 398:
+> warn0j
+Grade: none
+Turn 399:
+> rawn0j
+Grade: 2 bulls
+Turn 400:
+> arwn0j
+Grade: 1 bull
+Turn 401:
+> nrwa0j
+Grade: 1 bull
+Turn 402:
+> rnwa0j
+Grade: 2 bulls
+Turn 403:
+> wnra0j
+Grade: none
+Turn 404:
+> nwra0j
+Grade: none
+Turn 405:
+> rwna0j
+Grade: 1 bull
+Turn 406:
+> wrna0j
+Grade: none
+Turn 407:
+> wanr0j
+Grade: none
+Turn 408:
+> awnr0j
+Grade: none
+Turn 409:
+> nwar0j
+Grade: none
+Turn 410:
+> wnar0j
+Grade: none
+Turn 411:
+> anwr0j
+Grade: 1 bull
+Turn 412:
+> nawr0j
+Grade: 1 bull
+Turn 413:
+> narw0j
+Grade: none
+Turn 414:
+> anrw0j
+Grade: none
+Turn 415:
+> rnaw0j
+Grade: 1 bull
+Turn 416:
+> nraw0j
+Grade: none
+Turn 417:
+> arnw0j
+Grade: none
+Turn 418:
+> ranw0j
+Grade: 1 bull
+Turn 419:
+> 0anwrj
+Grade: none
+Turn 420:
+> a0nwrj
+Grade: 1 bull
+Turn 421:
+> n0awrj
+Grade: 1 bull
+Turn 422:
+> 0nawrj
+Grade: none
+Turn 423:
+> an0wrj
+Grade: none
+Turn 424:
+> na0wrj
+Grade: none
+Turn 425:
+> wa0nrj
+Grade: none
+Turn 426:
+> aw0nrj
+Grade: none
+Turn 427:
+> 0wanrj
+Grade: none
+Turn 428:
+> w0anrj
+Grade: 1 bull
+Turn 429:
+> a0wnrj
+Grade: 2 bulls
+Turn 430:
+> 0awnrj
+Grade: 1 bull
+Turn 431:
+> 0nwarj
+Grade: 1 bull
+Turn 432:
+> n0warj
+Grade: 2 bulls
+Turn 433:
+> w0narj
+Grade: 1 bull
+Turn 434:
+> 0wnarj
+Grade: none
+Turn 435:
+> nw0arj
+Grade: none
+Turn 436:
+> wn0arj
+Grade: none
+Turn 437:
+> wna0rj
+Grade: none
+Turn 438:
+> nwa0rj
+Grade: none
+Turn 439:
+> awn0rj
+Grade: none
+Turn 440:
+> wan0rj
+Grade: none
+Turn 441:
+> naw0rj
+Grade: 1 bull
+Turn 442:
+> anw0rj
+Grade: 1 bull
+Turn 443:
+> rnw0aj
+Grade: 3 bulls
+Turn 444:
+> nrw0aj
+Grade: 2 bulls
+Turn 445:
+> wrn0aj
+Grade: 1 bull
+Turn 446:
+> rwn0aj
+Grade: 2 bulls
+Turn 447:
+> nwr0aj
+Grade: 1 bull
+Turn 448:
+> wnr0aj
+Grade: 1 bull
+Turn 449:
+> 0nrwaj
+Grade: 1 bull
+Turn 450:
+> n0rwaj
+Grade: 2 bulls
+Turn 451:
+> r0nwaj
+Grade: 3 bulls
+Turn 452:
+> 0rnwaj
+Grade: 1 bull
+Turn 453:
+> nr0waj
+Grade: 1 bull
+Turn 454:
+> rn0waj
+Grade: 2 bulls
+Turn 455:
+> rw0naj
+Grade: 2 bulls
+Turn 456:
+> wr0naj
+Grade: 1 bull
+Turn 457:
+> 0rwnaj
+Grade: 2 bulls
+Turn 458:
+> r0wnaj
+Grade: 4 bulls
+Turn 459:
+> w0rnaj
+Grade: 2 bulls
+Turn 460:
+> 0wrnaj
+Grade: 1 bull
+Turn 461:
+> 0wnraj
+Grade: 1 bull
+Turn 462:
+> w0nraj
+Grade: 2 bulls
+Turn 463:
+> n0wraj
+Grade: 3 bulls
+Turn 464:
+> 0nwraj
+Grade: 2 bulls
+Turn 465:
+> wn0raj
+Grade: 1 bull
+Turn 466:
+> nw0raj
+Grade: 1 bull
+Turn 467:
+> aw0rnj
+Grade: none
+Turn 468:
+> wa0rnj
+Grade: none
+Turn 469:
+> 0awrnj
+Grade: 1 bull
+Turn 470:
+> a0wrnj
+Grade: 2 bulls
+Turn 471:
+> w0arnj
+Grade: 1 bull
+Turn 472:
+> 0warnj
+Grade: none
+Turn 473:
+> rwa0nj
+Grade: 1 bull
+Turn 474:
+> wra0nj
+Grade: none
+Turn 475:
+> arw0nj
+Grade: 1 bull
+Turn 476:
+> raw0nj
+Grade: 2 bulls
+Turn 477:
+> war0nj
+Grade: none
+Turn 478:
+> awr0nj
+Grade: none
+Turn 479:
+> a0rwnj
+Grade: 1 bull
+Turn 480:
+> 0arwnj
+Grade: none
+Turn 481:
+> ra0wnj
+Grade: 1 bull
+Turn 482:
+> ar0wnj
+Grade: none
+Turn 483:
+> 0rawnj
+Grade: none
+Turn 484:
+> r0awnj
+Grade: 2 bulls
+Turn 485:
+> r0wanj
+Grade: 3 bulls
+Turn 486:
+> 0rwanj
+Grade: 1 bull
+Turn 487:
+> wr0anj
+Grade: none
+Turn 488:
+> rw0anj
+Grade: 1 bull
+Turn 489:
+> 0wranj
+Grade: none
+Turn 490:
+> w0ranj
+Grade: 1 bull
+Turn 491:
+> n0rawj
+Grade: 1 bull
+Turn 492:
+> 0nrawj
+Grade: none
+Turn 493:
+> rn0awj
+Grade: 1 bull
+Turn 494:
+> nr0awj
+Grade: none
+Turn 495:
+> 0rnawj
+Grade: none
+Turn 496:
+> r0nawj
+Grade: 2 bulls
+Turn 497:
+> a0nrwj
+Grade: 1 bull
+Turn 498:
+> 0anrwj
+Grade: none
+Turn 499:
+> na0rwj
+Grade: none
+Turn 500:
+> an0rwj
+Grade: none
+Turn 501:
+> 0narwj
+Grade: none
+Turn 502:
+> n0arwj
+Grade: 1 bull
+Turn 503:
+> nra0wj
+Grade: none
+Turn 504:
+> rna0wj
+Grade: 1 bull
+Turn 505:
+> anr0wj
+Grade: none
+Turn 506:
+> nar0wj
+Grade: none
+Turn 507:
+> ran0wj
+Grade: 1 bull
+Turn 508:
+> arn0wj
+Grade: none
+Turn 509:
+> ar0nwj
+Grade: none
+Turn 510:
+> ra0nwj
+Grade: 1 bull
+Turn 511:
+> 0arnwj
+Grade: none
+Turn 512:
+> a0rnwj
+Grade: 1 bull
+Turn 513:
+> r0anwj
+Grade: 2 bulls
+Turn 514:
+> 0ranwj
+Grade: none
+Turn 515:
+> 0rajwn
+Grade: 2 bulls
+Turn 516:
+> r0ajwn
+Grade: 4 bulls
+Turn 517:
+> a0rjwn
+Grade: 3 bulls
+Turn 518:
+> 0arjwn
+Grade: 2 bulls
+Turn 519:
+> ra0jwn
+Grade: 3 bulls
+Turn 520:
+> ar0jwn
+Grade: 2 bulls
+Turn 521:
+> jr0awn
+Grade: 1 bull
+Turn 522:
+> rj0awn
+Grade: 2 bulls
+Turn 523:
+> 0jrawn
+Grade: 1 bull
+Turn 524:
+> j0rawn
+Grade: 2 bulls
+Turn 525:
+> r0jawn
+Grade: 3 bulls
+Turn 526:
+> 0rjawn
+Grade: 1 bull
+Turn 527:
+> 0ajrwn
+Grade: 1 bull
+Turn 528:
+> a0jrwn
+Grade: 2 bulls
+Turn 529:
+> j0arwn
+Grade: 2 bulls
+Turn 530:
+> 0jarwn
+Grade: 1 bull
+Turn 531:
+> aj0rwn
+Grade: 1 bull
+Turn 532:
+> ja0rwn
+Grade: 1 bull
+Turn 533:
+> jar0wn
+Grade: 1 bull
+Turn 534:
+> ajr0wn
+Grade: 1 bull
+Turn 535:
+> rja0wn
+Grade: 2 bulls
+Turn 536:
+> jra0wn
+Grade: 1 bull
+Turn 537:
+> arj0wn
+Grade: 1 bull
+Turn 538:
+> raj0wn
+Grade: 2 bulls
+Turn 539:
+> waj0rn
+Grade: 1 bull
+Turn 540:
+> awj0rn
+Grade: 1 bull
+Turn 541:
+> jwa0rn
+Grade: 1 bull
+Turn 542:
+> wja0rn
+Grade: 1 bull
+Turn 543:
+> ajw0rn
+Grade: 2 bulls
+Turn 544:
+> jaw0rn
+Grade: 2 bulls
+Turn 545:
+> 0awjrn
+Grade: 3 bulls
+Turn 546:
+> a0wjrn
+Grade: 4 bulls
+Turn 547:
+> w0ajrn
+Grade: 3 bulls
+Turn 548:
+> 0wajrn
+Grade: 2 bulls
+Turn 549:
+> aw0jrn
+Grade: 2 bulls
+Turn 550:
+> wa0jrn
+Grade: 2 bulls
+Turn 551:
+> wj0arn
+Grade: 1 bull
+Turn 552:
+> jw0arn
+Grade: 1 bull
+Turn 553:
+> 0wjarn
+Grade: 1 bull
+Turn 554:
+> w0jarn
+Grade: 2 bulls
+Turn 555:
+> j0warn
+Grade: 3 bulls
+Turn 556:
+> 0jwarn
+Grade: 2 bulls
+Turn 557:
+> 0jawrn
+Grade: 1 bull
+Turn 558:
+> j0awrn
+Grade: 2 bulls
+Turn 559:
+> a0jwrn
+Grade: 2 bulls
+Turn 560:
+> 0ajwrn
+Grade: 1 bull
+Turn 561:
+> ja0wrn
+Grade: 1 bull
+Turn 562:
+> aj0wrn
+Grade: 1 bull
+Turn 563:
+> rj0wan
+Grade: 3 bulls
+Turn 564:
+> jr0wan
+Grade: 2 bulls
+Turn 565:
+> 0rjwan
+Grade: 2 bulls
+Turn 566:
+> r0jwan
+Grade: 4 bulls
+Turn 567:
+> j0rwan
+Grade: 3 bulls
+Turn 568:
+> 0jrwan
+Grade: 2 bulls
+Turn 569:
+> wjr0an
+Grade: 2 bulls
+Turn 570:
+> jwr0an
+Grade: 2 bulls
+Turn 571:
+> rwj0an
+Grade: 3 bulls
+Turn 572:
+> wrj0an
+Grade: 2 bulls
+Turn 573:
+> jrw0an
+Grade: 3 bulls
+Turn 574:
+> rjw0an
+Grade: 4 bulls
+Turn 575:
+> r0wjan
+Grade: 6 bulls
+?[1;31m
+Start test 7?[0m
+Input the length of the secret code:
+> 0
+Input the number of possible symbols in the code:
+> 1
+Error: prvided value must be a positive number
+?[1;31m
+Start test 8?[0m
+Input the length of the secret code:
+> 10
+Input the number of possible symbols in the code:
+> 9
+Error: it's not possible to generate a code with a length of 10 with 9 unique symbols.
+?[1;31m
+Start test 9?[0m
+Input the length of the secret code:
+> 9
+Input the number of possible symbols in the code:
+> 37
+Error: maximum number of possible symbols in the code is 36 (0-9, a-z).
+?[1;31m
+Start test 10?[0m
+Input the length of the secret code:
+> abcdefg 1 -6
+Error.
+Input the number of possible symbols in the code:
+Error.
+Error: prvided value must be a positive number
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
